@@ -6,5 +6,5 @@ module.exports = {
     'models-path': path.resolve('src/Engine', 'Models'),
     'seeders-path': path.resolve('src/Engine/Database', 'Seeders'),
     'migrations-source-path': path.resolve('src/Engine/Database', 'Migrations'),
-    'migrations-compiled-path': path.resolve('/Engine/Database/Migrations', 'compiled'),
+    'migrations-compiled-path': path.resolve('build/Engine/Database', 'Migrations'),
 }
