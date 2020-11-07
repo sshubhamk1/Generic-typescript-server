@@ -1,0 +1,24 @@
+{
+  "name": "Generic-typescript-server",
+  "version": "1.0.0",
+  "description": "This will contain all my helpers and best ever express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sshubhamk1/Generic-typescript-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sshubhamk1/Generic-typescript-server/issues"
+  },
+  "homepage": "https://github.com/sshubhamk1/Generic-typescript-server#readme",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
