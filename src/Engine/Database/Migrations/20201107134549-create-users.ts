@@ -34,6 +34,10 @@ export = {
         allowNull: false,
         unique: true,
       },
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
       guid: {
         type: DataTypes.UUIDV4,
         allowNull: false,
