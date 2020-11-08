@@ -1,10 +1,11 @@
-import { Sequelize, DataTypes, Model } from "sequelize";
+import { Sequelize, DataTypes, Model, DATE } from "sequelize";
 import { sequelize } from "./index";
 import { v4 as uuidv4 } from "uuid";
 export interface UsersAttributes {
   first_name?: string;
   last_name?: string;
   email?: string;
+  password?: string;
   guid?: string;
 }
 
@@ -17,6 +18,7 @@ export class Users extends Model {
   first_name!: string;
   last_name!: string;
   email!: string;
+  password!: string;
   guid!: string;
 }
 
@@ -52,6 +54,10 @@ Users.init(
       type: DataTypes.STRING,
       allowNull: false,
       unique: true,
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
     },
     guid: {
       type: DataTypes.UUIDV4,
