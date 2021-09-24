@@ -43,7 +43,7 @@ app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
 // homepage route
 app.get("/", (req: Request, res: Response) => {
-  return res.status(200).json({ error: false, msg: "Hello to Shubham world" });
+  return res.status(200).json({ error: false, msg: "Hello to Aparna suman" });
 });
 
 // exporting routes for different roles
